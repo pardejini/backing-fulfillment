@@ -68,10 +68,10 @@ func TestGetFullfilmentStatusReturns200ForExistingSKU(t *testing.T) {
 	}
 
 	// Testa condicoes da ja alterada variavel detail
-	if detail.QuantityInStock != 100 {
-		t.Errorf("Expected 100 qty in stock, got %d", detail.QuantityInStock)
+	if detail.QuantityInStock != 1000 {
+		t.Errorf("Expected 1000 qty in stock, got %d", detail.QuantityInStock)
 	}
-	if detail.ShipsWithin != 14 {
+	if detail.ShipsWithin != 99 {
 		t.Errorf("Expected shipswithin 14 days, got %d", detail.ShipsWithin)
 	}
 	if detail.SKU != "THINGAMAJIG12" {
