@@ -2,5 +2,5 @@ applications:
 - path: .
   memory: 512MB
   instances: 1
-  name: backing-fulfillment
+  name: pardejini-fulfillment
   disk_quota: 1024M
